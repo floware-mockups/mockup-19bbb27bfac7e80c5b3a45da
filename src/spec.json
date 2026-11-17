@@ -1,0 +1,283 @@
+{
+  "title": "Gestione inventario arredi scolastici",
+  "description": "Prototipo navigabile per consultare, filtrare e aggiornare arredi, quantità e stato di conservazione nelle aule.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo inventario",
+      "description": "Panoramica degli arredi registrati e delle condizioni rilevate.",
+      "metrics": [
+        {
+          "label": "Aule censite",
+          "value": "4"
+        },
+        {
+          "label": "Arredi registrati",
+          "value": "16"
+        },
+        {
+          "label": "In buono stato",
+          "value": "10"
+        },
+        {
+          "label": "Da verificare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banco singolo",
+          "12",
+          "Buono"
+        ],
+        [
+          "Aula Lumo",
+          "Sedia",
+          "12",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Armadio basso",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Aula Vela",
+          "Tavolo docente",
+          "1",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Libreria",
+          "3",
+          "Da riparare"
+        ],
+        [
+          "Aula Nubi",
+          "Sedia",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Prisma",
+          "Lavagna mobile",
+          "1",
+          "Da verificare"
+        ],
+        [
+          "Aula Prisma",
+          "Banco doppio",
+          "8",
+          "Buono"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "arredi",
+      "title": "Elenco arredi",
+      "description": "Tabella filtrabile per aula, tipologia di arredo e stato di conservazione.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banco singolo",
+          "12",
+          "Buono"
+        ],
+        [
+          "Aula Lumo",
+          "Sedia",
+          "12",
+          "Buono"
+        ],
+        [
+          "Aula Lumo",
+          "Cattedra",
+          "1",
+          "Da verificare"
+        ],
+        [
+          "Aula Lumo",
+          "Libreria",
+          "2",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Armadio basso",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Aula Vela",
+          "Tavolo docente",
+          "1",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Banco doppio",
+          "10",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Sedia",
+          "20",
+          "Da riparare"
+        ],
+        [
+          "Aula Nubi",
+          "Libreria",
+          "3",
+          "Da riparare"
+        ],
+        [
+          "Aula Nubi",
+          "Sedia",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Tavolo attività",
+          "4",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Mobile contenitore",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Aula Prisma",
+          "Lavagna mobile",
+          "1",
+          "Da verificare"
+        ],
+        [
+          "Aula Prisma",
+          "Banco doppio",
+          "8",
+          "Buono"
+        ],
+        [
+          "Aula Prisma",
+          "Sedia",
+          "16",
+          "Buono"
+        ],
+        [
+          "Aula Prisma",
+          "Armadio alto",
+          "1",
+          "Da riparare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-arredo",
+      "title": "Registra un arredo",
+      "description": "Aggiungi una voce all'inventario indicando aula, tipologia, quantità e condizione.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [],
+      "form": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ]
+    },
+    {
+      "id": "controlli",
+      "title": "Controlli di conservazione",
+      "description": "Elenco filtrabile degli arredi che richiedono verifica o intervento.",
+      "metrics": [
+        {
+          "label": "Da verificare",
+          "value": "4"
+        },
+        {
+          "label": "Da riparare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Cattedra",
+          "1",
+          "Da verificare"
+        ],
+        [
+          "Aula Vela",
+          "Armadio basso",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Aula Vela",
+          "Sedia",
+          "20",
+          "Da riparare"
+        ],
+        [
+          "Aula Nubi",
+          "Libreria",
+          "3",
+          "Da riparare"
+        ],
+        [
+          "Aula Nubi",
+          "Mobile contenitore",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Aula Prisma",
+          "Lavagna mobile",
+          "1",
+          "Da verificare"
+        ],
+        [
+          "Aula Prisma",
+          "Armadio alto",
+          "1",
+          "Da riparare"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
